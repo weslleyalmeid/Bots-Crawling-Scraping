@@ -1,0 +1,26 @@
+
+# Created by https://www.gitignore.io/api/virtualenv
+# Edit at https://www.gitignore.io/?templates=virtualenv
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+pyvenv.cfg
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-selfcheck.json
+*.json
+# End of https://www.gitignore.io/api/virtualenv
+#
+bin/
+obj/
+login.txt
+Bot_Instagram_Selenium/
+Bot mega sena_nao_oficial/
+*.log
