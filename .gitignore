@@ -24,3 +24,4 @@ login.txt
 Bot_Instagram_Selenium/
 Bot mega sena_nao_oficial/
 *.log
+__pycache__/
