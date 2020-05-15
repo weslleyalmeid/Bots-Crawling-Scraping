@@ -1,3 +1,5 @@
+from pprint import pprint
+from urllib.parse import urlparse
 from selenium.webdriver import Firefox
 from time import sleep
 
@@ -5,7 +7,7 @@ browser = Firefox()
 
 browser.get('http://selenium.dunossauro.live/aula_04_a.html')
 
-#todo ------------------ exemplo 1 ------------------------
+# todo ------------------ exemplo 1 ------------------------
 
 lista_n_ordenada = browser.find_element_by_tag_name('ul')  # 1
 
@@ -26,7 +28,8 @@ ul
             texto
 """
 
-#todo ------------------ exemplo 2 ------------------------
+# todo ------------------ exemplo 2 ------------------------
+
 
 def find_by_text(browser, tag, text):
     """Encontrar o elemento com o texto `text`.
@@ -56,9 +59,10 @@ def find_by_href(browser, link):
 
 # elemento_ddg = find_by_text(browser, 'a', 'DuckDuckGo')
 
+
 elemento_ddg = find_by_href(browser, 'ddg')
 
-#todo ------------------ exemplo 3 ------------------------
+# todo ------------------ exemplo 3 ------------------------
 
 browser.get('http://selenium.dunossauro.live/aula_04_b.html')
 
@@ -76,27 +80,23 @@ for nome in nomes_das_caixas:
     sleep(0.3)
     browser.forward()
 
-#todo ------------------ exemplo 4 ------------------------
+# todo ------------------ exemplo 4 ------------------------
 
 browser.get('http://selenium.dunossauro.live/aula_04_b.html')
 
-from urllib.parse import urlparse
 
 parse = urlparse(browser.current_url)
 
 print(parse.scheme)
 print(parse.netloc)
 
-#todo ------------------ exemplo 5 ------------------------
+# todo ------------------ exemplo 5 ------------------------
 """
 1. Pegar todos os links de aulas
     {'nome da aula': 'link da aula'}
 2. Navegar até o exercício 3
     achar a url do exercício 3 e ir até lá
 """
-from selenium.webdriver import Firefox
-from time import sleep
-from pprint import pprint
 
 browser = Firefox()
 
