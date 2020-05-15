@@ -1,7 +1,7 @@
 from selenium.webdriver import Firefox
 from time import sleep
 
-#todo ------------------ exemplo 1 ------------------------
+# todo ------------------ exemplo 1 ------------------------
 url1 = 'https://curso-python-selenium.netlify.app/aula_03.html'
 url2 = 'http://ddg.gg'
 
