@@ -54,5 +54,5 @@ class CarsSpider(scrapy.Spider):
             'brand': brand,
             'km': km,
             'gearbox': gearbox,
-            'doors': doors
+            'doors': doors,
         }
