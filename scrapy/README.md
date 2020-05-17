@@ -1,4 +1,4 @@
-#[Curso de Scrapy](https://www.udemy.com/course/python-com-scrapy/)
+# [Curso de Scrapy](https://www.udemy.com/course/python-com-scrapy/)
 
 ### 1 - Intro Scrapy
 
